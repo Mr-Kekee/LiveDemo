@@ -1,6 +1,8 @@
 package livedDemo.model;
 
-public class LiveRedis {
+import java.io.Serializable;
+
+public class LiveRedis implements Serializable{
 
 	private String liveName;
 	private String userName;

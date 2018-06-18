@@ -1,4 +1,4 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
  xmlns:th="http://www.thymeleaf.org"
  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
@@ -17,9 +17,9 @@
  				</div>
  			</div>
  			<div class="col-sm-8">
- 				<h3 th:text="@${liveRedis.liveName}"></h3>
+ 				<h3 th:text="${liveRedis.liveName}"></h3>
  				<address>
- 					<strong th:text="@${liveRedis.content}"></strong>
+ 					<strong th:text="${liveRedis.content}"></strong>
  				</address>
  			</div>
  		</div>
